@@ -1,0 +1,105 @@
+/* =====================================
+   WAVELY - GLOBAL STYLES
+===================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Reset default browser spacing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root settings */
+
+html {
+  scroll-behavior: smooth;
+  background: #101014;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: #101014;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* React root */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Remove default button styling */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Input styling */
+
+input {
+  font-family: inherit;
+}
+
+/* Remove default link styling */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Image settings */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Scrollbar styling */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101014;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #393342;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+
+/* Text selection */
+
+::selection {
+  background: #a855f7;
+  color: white;
+}
+
+/* Remove default outline and add accessible focus */
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #c084fc;
+  outline-offset: 3px;
+}
+
+/* Responsive image and media */
+
+canvas,
+audio,
+video {
+  max-width: 100%;
+}
