@@ -20,16 +20,37 @@ export const tracks = [
     colors: ["#00c6ff", "#4263eb"],
     duration: "3:32",
     genre: "Electronic"
+  },
+  {
+    id: 3,
+    title: "Shape of You",
+    artist: "Ed Sheeran",
+    album: "÷ (Divide)",
+    src: "/songs/shape_of_you.mp3",
+    cover: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=700&q=85",
+    colors: ["#ff9a44", "#fc6076"],
+    duration: "3:53",
+    genre: "Pop"
+  },
+  {
+    id: 4,
+    title: "Starboy",
+    artist: "The Weeknd",
+    album: "Starboy",
+    src: "/songs/starboy.mp3",
+    cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=700&q=85",
+    colors: ["#7b2ff7", "#f107a3"],
+    duration: "3:50",
+    genre: "R&B"
   }
 ];
 
-// Default playlists
 export const starterPlaylists = [
   {
     id: "mix",
     name: "My Mix",
     description: "Your personal mix",
-    trackIds: [1, 2],
+    trackIds: [1, 2, 3, 4],
     cover: tracks[0].cover
   }
 ];
